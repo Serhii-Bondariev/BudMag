@@ -1,6 +1,5 @@
 import React from 'react';
 import css from './Main.module.css';
-import mainImg from '../images/mainImg.jpg';
 
 const Main = () => {
   return (
