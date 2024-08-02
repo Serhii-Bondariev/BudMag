@@ -4,16 +4,19 @@
   padding: 8px;
 } */
 .header {
-  display: flex;
+  border-bottom: 1px solid #333;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  padding: 20px 8px 20px 8px;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   font-size: 12px;
   /* margin-right: 20px; */
   color: #333;
   font-weight: 600;
-  /* text-align: center;
-  text-shadow: -1px 3px 3px rgba(65, 67, 3, 0.5); */
+  text-align: center;
+  text-shadow: -1px 3px 3px rgba(65, 67, 3, 0.3);
 }
 
 .contactInfo {
@@ -32,6 +35,7 @@
 .phone {
   display: flex;
   align-items: center;
+  margin-left: 20px;
   font-size: smaller;
   gap: 10px;
   cursor: pointer;
@@ -44,6 +48,7 @@
 .email {
   display: flex;
   align-items: center;
+  margin-right: 20px;
   font-size: smaller;
   gap: 10px;
   cursor: pointer;
@@ -69,4 +74,19 @@
     fill: #3301f9;
     transition: 0.5s all ease;
   } */
+}
+
+.border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+.border::before {
+  content: ' ';
+  width: 100%;
+  height: 2px;
+  background-color: rgba(46, 70, 107, 0.5);
 }
