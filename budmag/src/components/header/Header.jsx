@@ -13,7 +13,8 @@ const Header = () => {
   return (
     <div className={css.container}>
       <div className={css.header}>
-        <h1>Магазин будівельних матеріалів</h1>
+        <h1>БУДМАЙСТЕР</h1>
+        <p>Магазин будівельних матеріалів</p>
         <div className={css.border}></div>
         <div className={css.contactInfo}>
           <div className={css.phone} onClick={handlePhoneClick}>
@@ -26,8 +27,13 @@ const Header = () => {
         </div>
         <div className={css.border}></div>
         <div>
-          <p>Наша адреса: 123 Main St, Anytown USA</p>
-          <p>Графік роботи: Пн-Пт: 9:00-17:00, Сб-Нд: 9:00-14:00</p>
+          <p>Наша адреса: Пісківка, вул. Шкільна 1</p>
+          <p>Графік роботи: Пн-Сб: 9:00-18:00, Нд: 8:00-16:00</p>
+        </div>
+        <div>
+          <p>
+            <strong>Працюємо за програмою "Є ВІДНОВЛЕННЯ"</strong>
+          </p>
         </div>
       </div>
     </div>

@@ -11,7 +11,7 @@ const Footer = () => {
           </p>
           <a href="mailto:info@company.com">info@company.com</a>
           <br />
-          <a href="tel:+12345678901">+1 (234) 567-8901</a>
+          <a href="tel:+12345678901">+38 (097) 6928760</a>
         </div>
         <div className={css.border}></div>
         <div>
