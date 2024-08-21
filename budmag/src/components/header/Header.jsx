@@ -18,8 +18,8 @@ const Header = () => {
         <div className={css.border}></div>
         <div className={css.contactInfo}>
           <div className={css.phone} onClick={handlePhoneClick}>
-            <FaPhoneAlt className={css.phoneIco} alt="phone" /> +1 (234)
-            567-8901
+            <FaPhoneAlt className={css.phoneIco} alt="phone" />{' '}
+            <span>+38 (097) 692-87-60</span>
           </div>
           <div className={css.email} onClick={handleEmailClick}>
             <FaMailBulk className={css.emailIco} /> info@company.com
@@ -27,8 +27,8 @@ const Header = () => {
         </div>
         <div className={css.border}></div>
         <div>
-          <p>Наша адреса: Пісківка, вул. Шкільна 1</p>
-          <p>Графік роботи: Пн-Сб: 9:00-18:00, Нд: 8:00-16:00</p>
+          <p>Наша адреса: Пісківка, вул. Шкільна 40</p>
+          <p>Графік роботи: Пн-Сб: 8:00-18:00, Нд: 8:00-16:00</p>
         </div>
         <div>
           <p>
