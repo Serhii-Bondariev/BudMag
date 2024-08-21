@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaPhoneAlt, FaMailBulk } from 'react-icons/fa';
 import css from './Header.module.css';
+import styles from './Header.module.css';
 
 const Header = () => {
   const handlePhoneClick = () => {
@@ -13,6 +14,7 @@ const Header = () => {
   return (
     <div className={css.container}>
       <div className={css.header}>
+        <img src="/src/component/images/unnamed.jpg" alt="logo" />
         <h1>БУДМАЙСТЕР</h1>
         <p>Магазин будівельних матеріалів</p>
         <div className={css.border}></div>
