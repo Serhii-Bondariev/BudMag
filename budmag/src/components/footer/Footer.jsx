@@ -10,6 +10,13 @@ const Footer = () => {
     window.location.href = 'mailto:info@company.com';
   };
 
+  const handleOpenMap = () => {
+    window.open(
+      'https://www.google.com/maps/dir/?api=1&destination=50.698461, 29.589413',
+      '_blank'
+    );
+  };
+
   return (
     <div className={css.container}>
       <div className={css.wrapper}>
@@ -23,7 +30,8 @@ const Footer = () => {
               692-87-60
             </div>
             <div className={css.email} onClick={handleEmailClick}>
-              <FaMailBulk className={css.emailIco} /> info@company.com
+              <FaMailBulk className={css.emailIco} alt="email" />{' '}
+              info@company.com
             </div>
           </div>
         </div>
@@ -46,7 +54,12 @@ const Footer = () => {
           <p>
             <strong>Наш офіс:</strong>
           </p>
-          <p>Пісківка, вул. Шкільна 1</p>
+          <p>Пісківка, вул. Шкільна 40a</p>
+          <div>
+            <button className={css.mapBtn} onClick={handleOpenMap}>
+              Відкрити Google Карти
+            </button>
+          </div>
           <p>Пн-Пт: 9:00-18:00, Сб-Нд: 8:00-16:00</p>
         </div>
         <div className={css.border}></div>

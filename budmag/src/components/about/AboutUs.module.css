@@ -1,0 +1,11 @@
+.text {
+  padding: 0 8px;
+  margin-top: 20px;
+  text-align: start;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.title {
+  margin-bottom: 12px;
+}

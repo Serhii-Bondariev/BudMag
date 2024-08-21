@@ -1,19 +1,17 @@
 import React from 'react';
-import css from './Main.module.css';
+import css from './AboutUs.module.css';
 
-const Main = () => {
+const AboutUs = () => {
   return (
-    <div className={css.container}>
-      <div className={css.wrapper}>
-        {/* <img className={css.mainImg} src={mainImg} alt="random" /> */}
-      </div>
+    <div>
       <div className={css.text}>
+        <h1>Про нас</h1>
         <p className={css.title}>
           <strong>
             БУДМАЙСТЕР - це ваш надійний партнер у сфері будівництва, ремонту та
             оздоблення.
           </strong>
-          {/* <br /> Ми пропонуємо широкий асортимент якісних будівельних
+          <br /> Ми пропонуємо широкий асортимент якісних будівельних
           матеріалів, інструментів та аксесуарів для будь-яких будівельних
           потреб.
           <br />
@@ -51,11 +49,11 @@ const Main = () => {
           покупки будівельних матеріалів максимально простим та приємним для
           вас.
           <br />
-          <strong>Дякуємо, що обираєте наш інтернет-магазин! </strong> */}
+          <strong>Дякуємо, що обираєте наш інтернет-магазин! </strong>
         </p>
       </div>
     </div>
   );
 };
 
-export default Main;
+export default AboutUs;
