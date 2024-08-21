@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaPhoneAlt, FaMailBulk } from 'react-icons/fa';
 import css from './Header.module.css';
-import styles from './Header.module.css';
 
 const Header = () => {
   const handlePhoneClick = () => {
