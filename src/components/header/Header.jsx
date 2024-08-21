@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <div className={css.container}>
       <div className={css.header}>
-        <img src="/src/component/images/unnamed.jpg" alt="logo" />
+        <img src="/src/component/images/telega.jpg" alt="logo" />
         <h1>БУДМАЙСТЕР</h1>
         <p>Магазин будівельних матеріалів</p>
         <div className={css.border}></div>
