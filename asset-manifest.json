@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/BudMag/static/css/main.43ed0dc5.css",
+    "main.js": "/BudMag/static/js/main.fbcc20c7.js",
+    "static/js/453.21c8215f.chunk.js": "/BudMag/static/js/453.21c8215f.chunk.js",
+    "static/media/mainImg.jpg": "/BudMag/static/media/mainImg.efed262edf27f93843b6.jpg",
+    "static/media/unnamed.jpg": "/BudMag/static/media/unnamed.fddc9fcaa688434f7372.jpg",
+    "index.html": "/BudMag/index.html",
+    "main.43ed0dc5.css.map": "/BudMag/static/css/main.43ed0dc5.css.map",
+    "main.fbcc20c7.js.map": "/BudMag/static/js/main.fbcc20c7.js.map",
+    "453.21c8215f.chunk.js.map": "/BudMag/static/js/453.21c8215f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43ed0dc5.css",
+    "static/js/main.fbcc20c7.js"
+  ]
+}
