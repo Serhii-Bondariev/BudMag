@@ -3,11 +3,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('../images/mainImg.jpg');
+  background-color: #eeaf31;
+  /* background-image: url('../images/mainImg.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 200px;
+  height: 400px;
 }
 .text {
   padding: 0 8px;

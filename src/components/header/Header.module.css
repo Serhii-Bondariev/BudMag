@@ -1,22 +1,35 @@
-/* .container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 8px;
-} */
 .header {
-  border-bottom: 1px solid #333;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
-  padding: 20px 8px 20px 8px;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
+  height: 400px;
+  position: relative;
+  /* margin-bottom: 30px; */
+  /* border-bottom: 1px solid #333; */
+  box-shadow: 0 1px 3px rgba(250, 171, 2, 0.12);
+  padding: 20px 8px;
   font-size: 12px;
-  /* margin-right: 20px; */
   color: #333;
   font-weight: 600;
   text-align: center;
   text-shadow: -1px 3px 3px rgba(65, 67, 3, 0.3);
+  background: rgba(23, 21, 21, 0.5); /* Додаємо затемнення для тексту */
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/mainImg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(1px); /* Розмивання фону */
+  z-index: -1;
 }
 
 .logo {
@@ -34,20 +47,113 @@
   display: flex;
   flex-direction: column;
   justify-content: start;
-  align-items: self-start;
+  margin-bottom: 60px;
+}
+
+.logoTitle {
+  font-family: 'Rubik Mono One', monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(1.8rem, 5vw + 1rem, 3.5rem);
+  margin: 0;
+  color: #f0f2f3;
+  /* color: #00b4fb; */
+  text-shadow: -1px 3px 3px rgba(65, 67, 3, 0.8);
+}
+
+.logoSubtitle {
+  font-weight: 500;
+  /* align-self: flex-end; */
+  font-size: clamp(0.8rem, 2vw + 0.5rem, 1.5rem);
+  margin: 0;
+  color: white;
+  text-shadow: -1px 3px 3px rgba(65, 67, 3, 0.8);
 }
 
 .contactInfo {
   display: flex;
-  justify-content: space-between;
-  /* align-items: center; */
+  justify-content: center;
+  gap: 24px;
   font-size: 12px;
-  /* margin-right: 20px; */
+  font-family: 'Lexend Mega', sans-serif;
+  font-weight: 600;
+  margin-bottom: 90px;
+  flex-direction: column;
+}
+
+.phone {
+  border-radius: 5px;
+  padding: 8px 22px 8px 22px;
+  background-color: #0168f9;
+  color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.32);
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  gap: 16px;
+  cursor: pointer;
+  &:hover {
+    color: yellow;
+    box-shadow: #f9c301 0 3px 6px;
+    transition: 0.5s all ease;
+  }
+}
+
+.email {
+  border-radius: 5px;
+  padding: 8px 22px 8px 22px;
+  background-color: #0168f9;
+  color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.32);
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  gap: 10px;
+  cursor: pointer;
+  &:hover {
+    color: yellow;
+    box-shadow: #f9c301 0 3px 6px;
+    transition: 0.5s all ease;
+  }
+}
+
+.phoneIco {
+  height: 2.2em;
+  width: 2.2em;
+  /* &:hover {
+    fill: #3301f9;
+    transition: 0.5s all ease;
+  } */
+}
+
+.emailIco {
+  height: 2.2em;
+  width: 2.2em;
+  /* &:hover {
+    fill: #3301f9;
+    transition: 0.5s all ease;
+  } */
+}
+
+.evidnovaText {
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+  text-shadow: -1px 3px 3px rgba(65, 67, 3, 0.6);
+  margin-bottom: 90px;
+}
+
+/* .contactInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+
+  font-size: 12px;
+
   color: #333;
   font-family: 'Lexend Mega', sans-serif;
   font-weight: 600;
-  /* text-align: center;
-  text-shadow: -1px 3px 3px rgba(65, 67, 3, 0.5); */
+
 }
 
 .phone {
@@ -80,20 +186,14 @@
 .phoneIco {
   height: 2em;
   width: 2em;
-  /* &:hover {
-    fill: #3301f9;
-    transition: 0.5s all ease;
-  } */
+
 }
 
 .emailIco {
   height: 2.2em;
   width: 2.2em;
-  /* &:hover {
-    fill: #3301f9;
-    transition: 0.5s all ease;
-  } */
-}
+
+} */
 
 .border {
   display: flex;
@@ -116,7 +216,7 @@
   justify-content: start;
   align-items: self-start;
   font-size: 12px;
-  margin-right: 20px;
+  margin: 0 0 20px 0;
   color: #333;
   font-family: 'Lexend Mega', sans-serif;
   font-weight: 600;
