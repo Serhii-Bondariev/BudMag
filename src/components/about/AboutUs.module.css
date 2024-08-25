@@ -89,4 +89,9 @@
   opacity: 1;
   transform: translateY(0);
   padding: 4px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  flex-direction: column;
 }
