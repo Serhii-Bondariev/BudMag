@@ -11,8 +11,8 @@ const Main = () => {
         <div className={css.text}>
           <p className={css.title}>
             <strong>
-              БУДМАЙСТЕР - це ваш надійний партнер у сфері будівництва, ремонту
-              та оздоблення.
+              <span className={css.titleSpan}>БУДМАЙСТЕР</span> - ваш надійний
+              партнер у сфері будівництва, ремонту та оздоблення.
             </strong>
           </p>
           <div className={css.aboutUs}>

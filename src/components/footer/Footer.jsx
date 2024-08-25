@@ -22,7 +22,7 @@ const Footer = () => {
     <div className={css.container}>
       <div className={css.wrapper}>
         <div>
-          <p className={css.footerTitle}>
+          <p className={css.workTime}>
             <strong>Наші контакти:</strong>
           </p>
           <div className={css.contactInfo}>
@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
         </div>
         <div className={css.border}></div>
-        <p>
+        <p className={css.workTime}>
           <strong>Соціальні мережі:</strong>
         </p>
         <div className={css.iconSoc}>
@@ -44,6 +44,7 @@ const Footer = () => {
             className={css.iconSoc}
             label="facebook"
             target="_blank"
+            rel="noreferrer noopener"
             url="https://www.facebook.com"
           />
 
@@ -51,6 +52,7 @@ const Footer = () => {
             className={css.iconSoc}
             label="x"
             target="_blank"
+            rel="noreferrer noopener"
             url="https://www.x.com"
           />
 
@@ -58,6 +60,7 @@ const Footer = () => {
             className={css.iconSoc}
             label="Telegram"
             target="_blank"
+            rel="noreferrer noopener"
             url="https://web.telegram.org"
           />
 
@@ -65,6 +68,7 @@ const Footer = () => {
             className={css.iconSoc}
             label="Instagram"
             target="_blank"
+            rel="noreferrer noopener"
             url="https://www.instagram.com"
           />
 
@@ -77,19 +81,19 @@ const Footer = () => {
         </div>
         <div className={css.border}></div>
         <div>
-          <p>
+          <p className={css.workTime}>
             <strong>Наша адреса:</strong>
           </p>
-          <p>Пісківка, вул. Шкільна 40a</p>
+          <p className={css.workDay}>Пісківка, вул. Шкільна 40a</p>
           <div>
             <button className={css.mapBtn} onClick={handleOpenMap}>
-              Відкрити Google Карти
+              показати на Google карті
             </button>
           </div>
-          <p>
+          <p className={css.workTime}>
             <strong>Працюємо без вихідних</strong>
           </p>
-          <p>Пн-Пт: 9:00-18:00, Сб-Нд: 8:00-16:00</p>
+          <p className={css.workDay}>Пн-Пт: 9:00-18:00, Сб-Нд: 8:00-16:00</p>
         </div>
         <div className={css.border}></div>
         <div className={css.copyright}>
@@ -99,7 +103,7 @@ const Footer = () => {
               href="https://github.com/Serhii-Bondariev"
               about="blank"
               target="_blank"
-              rel="noreferrer"
+              rel="noreferrer noopener"
               className={css.copyrightLink}
               title="Serhii Bondariev"
             >
