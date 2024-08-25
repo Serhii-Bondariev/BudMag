@@ -11,9 +11,9 @@
   height: 100%;
 }
 .text {
-  padding: 0 8px;
+  padding: 20px 18px;
   margin-top: 20px;
-  text-align: start;
+  text-align: center;
   font-size: 1.3rem;
   font-weight: 300;
 }
