@@ -115,4 +115,5 @@
   justify-content: center;
   gap: 20px;
   margin: 12px 0 12px 0;
+  cursor: pointer;
 }

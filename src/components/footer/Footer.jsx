@@ -94,8 +94,18 @@ const Footer = () => {
         <div className={css.border}></div>
         <div className={css.copyright}>
           <p>
-            © 2024 BudMaister.Powered and designed by Serhii Bondariev. All
-            rights reserved.
+            © 2024 BudMaister.Powered and designed by{' '}
+            <a
+              href="https://github.com/Serhii-Bondariev"
+              about="blank"
+              target="_blank"
+              rel="noreferrer"
+              className={css.copyrightLink}
+              title="Serhii Bondariev"
+            >
+              Serhii Bondariev{' '}
+            </a>
+            . All rights reserved.
           </p>
         </div>
       </div>

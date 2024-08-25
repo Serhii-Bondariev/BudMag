@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 100%;
 }
 .text {
   padding: 0 8px;
@@ -20,4 +20,11 @@
 
 .title {
   margin-bottom: 12px;
+}
+
+.aboutUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
 }

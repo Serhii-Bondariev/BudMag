@@ -1,5 +1,6 @@
 import React from 'react';
 import css from './Main.module.css';
+import AboutUs from '../about/AboutUs';
 
 const Main = () => {
   return (
@@ -14,6 +15,9 @@ const Main = () => {
               та оздоблення.
             </strong>
           </p>
+          <div className={css.aboutUs}>
+            <AboutUs />
+          </div>
         </div>
       </div>
     </div>

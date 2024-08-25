@@ -1,15 +1,15 @@
 import React from 'react';
-import { FaPhoneAlt, FaMailBulk } from 'react-icons/fa';
+import { FaPhoneAlt } from 'react-icons/fa';
 import css from './Header.module.css';
-import logo from '../../components/images/unnamed.jpg';
+// import logo from '../../components/images/unnamed.jpg';
 
 const Header = () => {
   const handlePhoneClick = () => {
     window.location.href = 'tel:+12345678901';
   };
-  const handleEmailClick = () => {
-    window.location.href = 'mailto:info@company.com';
-  };
+  // const handleEmailClick = () => {
+  //   window.location.href = 'mailto:info@company.com';
+  // };
 
   return (
     <div className={css.container}>
