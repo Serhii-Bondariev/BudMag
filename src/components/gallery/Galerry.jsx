@@ -21,10 +21,10 @@ const Galerry = () => {
       slidesPerView={1}
       slidesPerGroup={1}
       loop={true}
-      // autoplay={{
-      //   delay: 3000,
-      //   disableOnInteraction: true,
-      // }}
+      autoplay={{
+        delay: 3000,
+        disableOnInteraction: true,
+      }}
       navigation
       pagination={{ clickable: true }}
       modules={[Navigation, Pagination, Autoplay]}
