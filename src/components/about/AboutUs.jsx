@@ -13,13 +13,13 @@ const AboutUs = () => {
   return (
     <div>
       <div className={css.aboutUsText}>
-        <button className={css.aboutUsBtn} onClick={toggleText}>
-          Про нас
-        </button>
-
-        {/* Відображення тексту залежно від стану */}
+        <div className={css.AbtUsbutton}>
+          <button className={css.aboutUsBtn} onClick={toggleText}>
+            Про нас
+          </button>
+        </div>
         {isExpanded && (
-          <p className={css.title}>
+          <p className={`${css.title} ${isExpanded ? css.expanded : ''}`}>
             <strong>Що ми пропонуємо: </strong> Широкий асортимент: У нашому
             каталозі ви знайдете все необхідне для будівництва та ремонту - від
             цегли, цементу та утеплювачів до оздоблювальних матеріалів,
