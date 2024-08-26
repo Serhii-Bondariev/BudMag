@@ -1,4 +1,5 @@
 import './App.css';
+import Evidnova from './components/eVidnova/Evidnova';
 // import AboutUs from './components/about/AboutUs';
 import Footer from './components/footer/Footer';
 import Galerry from './components/gallery/Galerry';
@@ -12,6 +13,8 @@ function App() {
 
       <Main />
       <Galerry />
+      <Evidnova />
+
       {/* <AboutUs /> */}
       <Footer />
     </div>
