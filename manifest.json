@@ -1,6 +1,6 @@
 {
   "short_name": "Budmaister",
-  "name": "Create React App Sample",
+  "name": "Будівельні матеріали",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,7 +8,7 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "logo192.webp",
       "type": "image/png",
       "sizes": "192x192"
     },
