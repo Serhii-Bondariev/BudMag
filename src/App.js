@@ -1,5 +1,6 @@
+import ProductsList from 'components/productsList/ProductsList';
 import './App.css';
-import Evidnova from './components/eVidnova/Evidnova';
+// import Evidnova from './components/eVidnova/Evidnova';
 // import AboutUs from './components/about/AboutUs';
 import Footer from './components/footer/Footer';
 import Galerry from './components/gallery/Galerry';
@@ -10,10 +11,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-
-      <Main />
+      <ProductsList />
       <Galerry />
-      <Evidnova />
+      <Main />
+
+      {/* <Evidnova /> */}
 
       {/* <AboutUs /> */}
       <Footer />
