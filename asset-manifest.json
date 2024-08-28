@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/BudMag/static/css/main.fec57d96.css",
+    "main.js": "/BudMag/static/js/main.f01a3e27.js",
+    "static/js/453.21c8215f.chunk.js": "/BudMag/static/js/453.21c8215f.chunk.js",
+    "static/media/evidnovlennya1.png": "/BudMag/static/media/evidnovlennya1.41a85e2205d8bd4b3184.png",
+    "static/media/photo_2024-08-23_15-58-10.jpg": "/BudMag/static/media/photo_2024-08-23_15-58-10.f32176a09bec97491981.jpg",
+    "static/media/photo_2024-08-23_15-58-32.jpg": "/BudMag/static/media/photo_2024-08-23_15-58-32.bc442652284b8bd3c7ef.jpg",
+    "static/media/3.jpg": "/BudMag/static/media/3.cc1649195713d7e50a85.jpg",
+    "static/media/1.jpg": "/BudMag/static/media/1.a221ea69bef0938d869e.jpg",
+    "static/media/photo_2024-08-23_15-58-25.jpg": "/BudMag/static/media/photo_2024-08-23_15-58-25.892c00239fc024e228bb.jpg",
+    "static/media/photo_2024-08-23_15-58-29.jpg": "/BudMag/static/media/photo_2024-08-23_15-58-29.449c8f20764a11c7bae2.jpg",
+    "static/media/photo_2024-08-23_15-58-22.jpg": "/BudMag/static/media/photo_2024-08-23_15-58-22.f0f27c246add89a048d4.jpg",
+    "static/media/photo_2024-08-23_15-58-19.jpg": "/BudMag/static/media/photo_2024-08-23_15-58-19.1076bf44bf9d72c2495a.jpg",
+    "static/media/mainImg.jpg": "/BudMag/static/media/mainImg.efed262edf27f93843b6.jpg",
+    "index.html": "/BudMag/index.html",
+    "main.fec57d96.css.map": "/BudMag/static/css/main.fec57d96.css.map",
+    "main.f01a3e27.js.map": "/BudMag/static/js/main.f01a3e27.js.map",
+    "453.21c8215f.chunk.js.map": "/BudMag/static/js/453.21c8215f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fec57d96.css",
+    "static/js/main.f01a3e27.js"
+  ]
+}
