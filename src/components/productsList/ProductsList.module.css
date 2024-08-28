@@ -1,0 +1,80 @@
+/* src/components/ProductsList.module.css */
+.wrapper {
+  padding: 40px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeaf31;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1e2022;
+  text-align: center;
+}
+
+/* .productsList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  width: 100%;
+  max-width: 1200px;
+} */
+
+.productCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Розподілити простір між зображенням і текстом */
+  background-color: white;
+  padding: 16px;
+  gap: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.productCard:hover {
+  transform: scale(1.05);
+}
+
+.productImage {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
+
+.productLabel {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #1e2022;
+}
+
+.productsList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+  .productsList {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .productsList {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
