@@ -31,23 +31,29 @@
 .productCard {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Розподілити простір між зображенням і текстом */
+  justify-content: space-between;
   background-color: white;
   padding: 16px;
   gap: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease;
+
+  max-width: 200px;
 }
 
 .productCard:hover {
-  transform: scale(1.05);
+  box-shadow: -2px 3px 16px -1px rgba(28, 29, 33, 0.75); /* Темніша тінь при ховері */
+  transform: scale(1.01); /* Легке збільшення розміру при ховері */
 }
 
 .productImage {
   max-width: 100%;
-  height: auto;
+  height: auto; /* Збереження пропорцій */
+  max-height: 150px; /* Встановіть максимальну висоту, якщо необхідно */
+  object-fit: cover; /* Збереження співвідношення сторін і заповнення */
   margin-bottom: 12px;
   border-radius: 8px;
 }
@@ -60,7 +66,7 @@
 
 .productsList {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 16px;
   width: 100%;
   max-width: 1200px;

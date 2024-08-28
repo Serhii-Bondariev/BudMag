@@ -19,9 +19,17 @@ import zabor from '../../assets/zabor.jpeg';
 import santehnika from '../../assets/santehnika.jpg';
 import opalennja from '../../assets/opalennja.png';
 import instrument from '../../assets/instrument.jpg';
+import electrica from '../../assets/electrica.webp';
+import keramo from '../../assets/keramo.jpeg';
 
 const products = [
   { src: budmaterialy, alt: 'Будматеріали', label: 'Будматеріали' },
+  {
+    src: keramo,
+    alt: 'Керамічна плитка та керамограніт',
+    label: 'Керамічна плитка та керамограніт',
+  },
+  { src: electrica, alt: 'Єлектрика', label: 'Єлектрика' },
   { src: gipsokarton, alt: 'Гіпсокартон', label: 'Гіпсокартон' },
   {
     src: isolationMaterialy,
@@ -72,7 +80,7 @@ const products = [
 const ProductsList = () => {
   return (
     <div className={css.wrapper}>
-      <h1 className={css.title}>Ми пропонуемо</h1>
+      <h1 className={css.title}>Ми пропонуємо</h1>
       <div className={css.productsList}>
         {products.map((product, index) => (
           <div key={index} className={css.productCard}>
