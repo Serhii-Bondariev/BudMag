@@ -123,7 +123,7 @@ const AboutUs = () => {
           </button>
         </div>
         {isExpanded && (
-          <div className={css.aboutUs}>
+          <div className={`${css.aboutUs} ${isExpanded ? css.expanded : ''}`}>
             <p className={`${css.title} ${isExpanded ? css.expanded : ''}`}>
               <strong>
                 <FaHammer /> Що ми пропонуємо:
