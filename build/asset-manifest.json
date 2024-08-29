@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BudMag/static/css/main.baaf56e6.css",
-    "main.js": "/BudMag/static/js/main.2c71b12d.js",
+    "main.css": "/BudMag/static/css/main.a6b62dca.css",
+    "main.js": "/BudMag/static/js/main.91ba5096.js",
     "static/js/453.21c8215f.chunk.js": "/BudMag/static/js/453.21c8215f.chunk.js",
     "static/media/opalennja.png": "/BudMag/static/media/opalennja.7d030d36f709de5cf024.png",
     "static/media/kriplennja.jpg": "/BudMag/static/media/kriplennja.7abe8d9ca01721a90446.jpg",
@@ -25,16 +25,17 @@
     "static/media/metalocherepitca.jpg": "/BudMag/static/media/metalocherepitca.2a61d1dd388314c62abd.jpg",
     "static/media/santehnika.jpg": "/BudMag/static/media/santehnika.836f6b11e23515baf35f.jpg",
     "static/media/isolationMaterialy.jpg": "/BudMag/static/media/isolationMaterialy.68bb4e82446cf5bf1d48.jpg",
+    "static/media/electrica.webp": "/BudMag/static/media/electrica.98ebc2b177d45b8ccf29.webp",
     "static/media/gipsokarton.jpg": "/BudMag/static/media/gipsokarton.9f658841cb63813bbe2a.jpg",
     "static/media/zabor.jpeg": "/BudMag/static/media/zabor.d28daf5aeda8f27adc72.jpeg",
     "static/media/metaloprokat.jpeg": "/BudMag/static/media/metaloprokat.4ce02cab7d4aaeabd558.jpeg",
     "index.html": "/BudMag/index.html",
-    "main.baaf56e6.css.map": "/BudMag/static/css/main.baaf56e6.css.map",
-    "main.2c71b12d.js.map": "/BudMag/static/js/main.2c71b12d.js.map",
+    "main.a6b62dca.css.map": "/BudMag/static/css/main.a6b62dca.css.map",
+    "main.91ba5096.js.map": "/BudMag/static/js/main.91ba5096.js.map",
     "453.21c8215f.chunk.js.map": "/BudMag/static/js/453.21c8215f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.baaf56e6.css",
-    "static/js/main.2c71b12d.js"
+    "static/css/main.a6b62dca.css",
+    "static/js/main.91ba5096.js"
   ]
 }
