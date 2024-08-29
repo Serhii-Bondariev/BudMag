@@ -66,14 +66,14 @@
 
 .productsList {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
   gap: 16px;
   width: 100%;
   max-width: 1200px;
 }
 
 /* Desktop Styles */
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .productsList {
     grid-template-columns: repeat(3, 1fr);
   }
