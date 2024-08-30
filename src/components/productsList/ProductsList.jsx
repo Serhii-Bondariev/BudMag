@@ -80,7 +80,7 @@ const products = [
 const ProductsList = () => {
   return (
     <div className={css.wrapper}>
-      <h1 className={css.title}>Ми пропонуємо</h1>
+      <h2 className={css.title}>Ми пропонуємо широкий вибір будматеріалів </h2>
       <div className={css.productsList}>
         {products.map((product, index) => (
           <div key={index} className={css.productCard}>
