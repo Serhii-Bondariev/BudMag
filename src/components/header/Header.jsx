@@ -16,7 +16,13 @@ const Header = () => {
       <div className={css.header}>
         <div className={css.evidnova}>
           <p className={css.evidnovaText}>
-            <strong>Працюємо з програмою "Є ВІДНОВЛЕННЯ"</strong>
+            <a
+              href="https://erecovery.diia.gov.ua/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <strong>Працюємо з програмою "Є ВІДНОВЛЕННЯ"</strong>
+            </a>
           </p>
         </div>
         <div className={css.logoInfo}>
