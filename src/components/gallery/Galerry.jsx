@@ -14,6 +14,8 @@ const images = importAll(
   require.context('../images/photo', false, /\.(png|jpe?g|svg)$/)
 );
 
+//https://epicentrk.ua/ua/shop/kley-dlya-plitki-baugut-klf-25-kg.html
+
 const Galerry = () => {
   return (
     <Swiper

@@ -1,0 +1,29 @@
+.productImage {
+  max-height: 100%;
+
+  max-height: 350px; /* Встановіть максимальну висоту, якщо необхідно */
+  object-fit: cover;
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+  margin: 10px 20px 30px 20px;
+  color: #333;
+}
+
+.productCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  padding: 16px;
+  gap: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease;
+}

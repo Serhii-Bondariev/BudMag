@@ -6,11 +6,13 @@ import Footer from './components/footer/Footer';
 import Galerry from './components/gallery/Galerry';
 import Header from './components/header/Header';
 import Main from './components/main/Main';
+import PopularProduct from 'components/popularProduct/PopularProduct';
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <PopularProduct />
       <ProductsList />
       <Galerry />
       <Main />

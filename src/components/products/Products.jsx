@@ -1,5 +1,4 @@
 import React from 'react';
-import css from './ProductsList.module.css';
 
 import budmaterialy from '../../assets/budmaterialy.png';
 import gipsokarton from '../../assets/gipsokarton.jpg';
@@ -22,7 +21,7 @@ import instrument from '../../assets/instrument.jpg';
 import electrica from '../../assets/electrica.jpg';
 import keramo from '../../assets/keramo.jpeg';
 
-const products = [
+const roducts = [
   { src: budmaterialy, alt: 'Будматеріали', label: 'Будматеріали' },
   {
     src: keramo,
@@ -76,25 +75,8 @@ const products = [
     label: 'Інструменти',
   },
 ];
-
-const ProductsList = () => {
-  return (
-    <div className={css.wrapper}>
-      <h2 className={css.title}>Ми пропонуємо широкий вибір будматеріалів </h2>
-      <div className={css.productsList}>
-        {products.map((product, index) => (
-          <div key={index} className={css.productCard}>
-            <img
-              src={product.src}
-              alt={product.alt}
-              className={css.productImage}
-            />
-            <p className={css.productLabel}>{product.label}</p>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
+const Products = () => {
+  return <div></div>;
 };
 
-export default ProductsList;
+export default Products;
