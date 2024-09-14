@@ -21,6 +21,8 @@ import opalennja from '../../assets/opalennja.png';
 import instrument from '../../assets/instrument.jpg';
 import electrica from '../../assets/electrica.jpg';
 import keramo from '../../assets/keramo.jpeg';
+import cement from '../../assets/Cement.jpg';
+import pinoblok from '../../assets/pinoblok.webp';
 
 const products = [
   { src: budmaterialy, alt: 'Будматеріали', label: 'Будматеріали' },
@@ -75,12 +77,22 @@ const products = [
     alt: 'Інструменти',
     label: 'Інструменти',
   },
+  {
+    src: pinoblok,
+    alt: 'Піноблоки',
+    label: 'Піноблоки',
+  },
+  {
+    src: cement,
+    alt: 'Цемент',
+    label: 'Цемент',
+  },
 ];
 
 const ProductsList = () => {
   return (
     <div className={css.wrapper}>
-      <h2 className={css.title}>Ми пропонуємо широкий вибір будматеріалів </h2>
+      {/* <h2 className={css.title}>Ми пропонуємо широкий вибір будматеріалів </h2> */}
       <div className={css.productsList}>
         {products.map((product, index) => (
           <div key={index} className={css.productCard}>

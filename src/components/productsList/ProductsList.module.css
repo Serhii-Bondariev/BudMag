@@ -1,6 +1,6 @@
 /* src/components/ProductsList.module.css */
 .wrapper {
-  padding: 40px 18px;
+  padding: 40px 12px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,10 +66,10 @@
 
 .productsList {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 16px;
   width: 100%;
-  max-width: 1200px;
+  /* max-width: 1200px; */
 }
 
 /* Desktop Styles */

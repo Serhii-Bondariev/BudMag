@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  outline: 1px solid red;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif, 'Lexend Mega', 'Roboto', sans-serif;
@@ -8,6 +9,11 @@ body {
 *::after,
 *::before {
   box-sizing: border-box;
+}
+
+* {
+  /* outline: red 1px solid; */
+  scroll-behavior: smooth;
 }
 
 h1,

@@ -6,58 +6,59 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import clue from '../../assets/popular/clue/112053_7.jpeg';
-import Lantren from '../../assets/popular/lighter/7017213_1.webp';
-import Paint from '../../assets/popular/paint/26697_6.webp';
-import PowerStation from '../../assets/popular/power/6941133_6.webp';
+import Cement from '../../assets/popular/cement/Cement.jpg';
+import Gazoblok from '../../assets/popular/gazblok/pinoblok.webp';
+import Paint from '../../assets/popular/paint/farbaGumova.jpg';
+import PowerStation from '../../assets/popular/power/Sumish.png';
 import Uteplitel from '../../assets/popular/uteplitel/2916270_2.jpeg';
 
 const products = [
   {
-    src: clue,
-    alt: 'Клей для плитки',
-    label: 'Клей для плитки',
-    price: '350 грн.',
+    src: Cement,
+    alt: 'Цемент',
+    label: 'Цемент швидкий Cemark ПЦ-II/АШ 500 25кг',
+    price: '165 ₴.',
   },
   {
-    src: Lantren,
-    alt: 'Ліхтар аккумуляторний ',
-    label: 'Ліхтар аккумуляторний',
-    price: '300 грн.',
+    src: Gazoblok,
+    alt: 'Блок газобетонний Стоунлайт 600*300*200 мм D500',
+    label: 'Блок газобетонний',
+    price: '124 ₴.',
   },
   {
     src: Paint,
-    alt: 'Фарба акрилова',
-    label: 'Фарба акрилова',
-    price: '250 грн.',
+    alt: 'Фарба гумова ',
+    label: 'Фарба гумова FARBEX Універсальна (в ассортименті), 6 кг',
+    price: '1077 ₴.',
   },
   {
     src: PowerStation,
     alt: 'Зарядна станція',
-    label: 'Зарядна станція',
-    price: '34000 грн.',
+    label:
+      'Суміш швидка самовирівнювальна для підлоги (2-80 мм) 414 ТМ "Крайзель" (KRЕISEL) 25кг',
+    price: '299.20 ₴/шт.',
   },
   {
     src: Uteplitel,
     alt: 'Утеплювач',
-    label: 'Утеплювач',
-    price: '200 грн.',
+    label: 'Базальтова вата BauGut Universell 30 100 мм 2,88 кв.м',
+    price: '370.94 ₴/упак.',
   },
 ];
 
 const PopularProduct = () => {
   return (
-    <div>
-      <h2 className={css.title}>Популярні продукти</h2>
+    <div className={css.container}>
+      <h2 className={css.title}>Хіти продажу</h2>
       <Swiper
         spaceBetween={20}
         slidesPerView={1}
         slidesPerGroup={1}
         loop={true}
-        autoplay={{
-          delay: 3000,
-          disableOnInteraction: true,
-        }}
+        // autoplay={{
+        //   delay: 3000,
+        //   disableOnInteraction: true,
+        // }}
         navigation
         pagination={{ clickable: true }}
         modules={[Navigation, Pagination, Autoplay]}
@@ -79,13 +80,17 @@ const PopularProduct = () => {
         {products.map((product, index) => (
           <SwiperSlide key={index}>
             <div className={css.productCard}>
-              <img
-                src={product.src}
-                alt={product.alt}
-                className={css.productImage}
-              />
-              <p>{product.label}</p>
-              <p>{product.price}</p>
+              {/* <h3>{product.label}</h3> */}
+              <div className={css.productImageWrapper}>
+                <img
+                  src={product.src}
+                  alt={product.alt}
+                  className={css.productImage}
+                />
+              </div>
+
+              <p className={css.productLabel}>{product.label}</p>
+              <p className={css.productPrice}>{product.price}</p>
             </div>
           </SwiperSlide>
         ))}
