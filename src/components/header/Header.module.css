@@ -144,7 +144,7 @@
   font-size: 14px;
   color: white;
   text-shadow: -1px 3px 3px rgba(65, 67, 3, 0.6);
-  margin-bottom: 90px;
+  margin-bottom: 66px;
   cursor: pointer;
   &:hover {
     color: yellow;
@@ -238,7 +238,6 @@
   justify-content: start;
   align-items: self-start;
   font-size: 12px;
-  margin-right: 20px;
   color: #333;
   font-family: 'Lexend Mega', sans-serif;
   font-weight: 600;

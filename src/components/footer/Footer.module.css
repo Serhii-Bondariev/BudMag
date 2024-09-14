@@ -110,6 +110,7 @@
   cursor: pointer;
   &:hover {
     box-shadow: #f9c301 0 3px 6px;
+    color: yellow;
     transition: 0.5s all ease;
   }
 }

@@ -1,0 +1,60 @@
+.container {
+  background-color: #eeaf31;
+  box-shadow: 4px 1px 3px rgba(0, 0, 0, 0.12);
+  padding: 22px 12px 22px 12px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: hsl(0, 0%, 20%);
+  margin: 30px 0 30px 0;
+}
+
+.productImage {
+  width: 100%;
+  height: auto;
+  max-height: 350px; /* Встановіть максимальну висоту, якщо необхідно */
+  object-fit: scale-down;
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
+
+.productLabel {
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
+
+.productPrice {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #05890e;
+
+  margin-bottom: 30px;
+}
+
+.productCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 480px;
+  background-color: white;
+  padding: 16px;
+  margin-bottom: 30px;
+  gap: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.productImageWrapper {
+  display: flex;
+  justify-content: center;
+  min-height: 350px;
+  width: 100%;
+}
