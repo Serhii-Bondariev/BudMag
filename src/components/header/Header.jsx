@@ -14,17 +14,6 @@ const Header = () => {
   return (
     <div className={css.container}>
       <div className={css.header}>
-        <div className={css.evidnova}>
-          <p className={css.evidnovaText}>
-            <a
-              href="https://erecovery.diia.gov.ua/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <strong>Працюємо з програмою "Є ВІДНОВЛЕННЯ"</strong>
-            </a>
-          </p>
-        </div>
         <div className={css.logoInfo}>
           {/* <img className={css.logo} src={logo} alt="logo" /> */}
           <div className={css.logoDivision}>
