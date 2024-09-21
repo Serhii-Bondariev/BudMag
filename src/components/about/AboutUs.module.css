@@ -1,3 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
 .aboutUsText {
   max-width: 800px;
   margin: 0 auto;
@@ -11,7 +19,7 @@
 
 .aboutUsBtn {
   padding: 10px 20px;
-  background-color: #f08b0f;
+  background-color: #bd3737;
   color: white;
   font-size: 14px;
   font-weight: bold;
@@ -22,6 +30,13 @@
   transition: background-color 0.6s, box-shadow 0.7s;
 }
 
+.aboutUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .AbtUsbutton {
   display: flex;
   justify-content: center;
@@ -29,7 +44,7 @@
 }
 
 .aboutUsBtn:hover {
-  background-color: #e07a0a;
+  background-color: #ad4518;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -63,19 +78,20 @@
 }
 
 .phone {
-  font-family: 'Lexend Mega', sans-serif;
-  font-weight: 600;
+  width: 190px;
+  height: 25px;
   border-radius: 5px;
-  padding: 8px 22px 8px 22px;
-  margin: 0 24px 24px 24px;
-  background-color: #0168f9;
+  padding: 12px 22px 12px 22px;
+  background-color: #bd3737;
   color: white;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.32);
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-size: 14px;
-  gap: 16px;
+  font-family: 'Lexend Mega', sans-serif;
+  font-weight: 600;
+  align-items: center;
+  font-size: 12px;
+  gap: 10px;
   cursor: pointer;
   &:hover {
     color: yellow;

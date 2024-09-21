@@ -6,9 +6,7 @@
   justify-content: center;
   align-items: center;
   background-color: #eeaf31;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+
   height: 100%;
 }
 
@@ -53,7 +51,7 @@
   max-width: 100%;
   height: auto; /* Збереження пропорцій */
   max-height: 150px; /* Встановіть максимальну висоту, якщо необхідно */
-  object-fit: cover; /* Збереження співвідношення сторін і заповнення */
+  object-fit: contain; /* Збереження співвідношення сторін і заповнення */
   margin-bottom: 12px;
   border-radius: 8px;
 }
@@ -69,7 +67,6 @@
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 16px;
   width: 100%;
-  /* max-width: 1200px; */
 }
 
 /* Desktop Styles */
