@@ -107,7 +107,7 @@ const Footer = () => {
               className={css.copyrightLink}
               title="Serhii Bondariev by Trident Web Studio"
             >
-              <span>TRIDENT WEB STUDIO</span>{' '}
+              <span className={css.copyrightLinkSpan}>TRIDENT WEB STUDIO</span>{' '}
             </a>
             . All rights reserved.
           </p>
