@@ -80,7 +80,7 @@ const products = [
   {
     src: pinoblok,
     alt: 'Піноблоки',
-    label: 'Піноблоки',
+    label: 'Газоблоки',
   },
   {
     src: cement,

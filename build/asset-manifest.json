@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BudMag/static/css/main.03e927e7.css",
-    "main.js": "/BudMag/static/js/main.e19c8364.js",
+    "main.js": "/BudMag/static/js/main.77cc7f1d.js",
     "static/js/453.21c8215f.chunk.js": "/BudMag/static/js/453.21c8215f.chunk.js",
     "static/media/Cement.jpg": "/BudMag/static/media/Cement.2ec8eee295155a401316.jpg",
     "static/media/opalennja.png": "/BudMag/static/media/opalennja.7d030d36f709de5cf024.png",
@@ -36,11 +36,11 @@
     "static/media/metaloprokat.jpeg": "/BudMag/static/media/metaloprokat.4ce02cab7d4aaeabd558.jpeg",
     "index.html": "/BudMag/index.html",
     "main.03e927e7.css.map": "/BudMag/static/css/main.03e927e7.css.map",
-    "main.e19c8364.js.map": "/BudMag/static/js/main.e19c8364.js.map",
+    "main.77cc7f1d.js.map": "/BudMag/static/js/main.77cc7f1d.js.map",
     "453.21c8215f.chunk.js.map": "/BudMag/static/js/453.21c8215f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.03e927e7.css",
-    "static/js/main.e19c8364.js"
+    "static/js/main.77cc7f1d.js"
   ]
 }
