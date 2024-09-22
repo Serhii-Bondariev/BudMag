@@ -105,9 +105,9 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer noopener"
               className={css.copyrightLink}
-              title="Serhii Bondariev"
+              title="Serhii Bondariev by Trident Web Studio"
             >
-              Serhii Bondariev{' '}
+              <span>TRIDENT WEB STUDIO</span>{' '}
             </a>
             . All rights reserved.
           </p>
