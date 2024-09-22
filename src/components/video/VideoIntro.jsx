@@ -1,24 +1,20 @@
 import React from 'react';
+import ReactPlayer from 'react-player';
 import css from './VideoIntro.module.css';
 
 function VideoIntro() {
   return (
     <div className={css.videoContainer}>
-      <video
-        // src="/src/assets/intro.mp4"
-        type="video/mp4"
+      <ReactPlayer
+        url="/public/media/intro.mp4" // Переконайся, що шлях правильний
         className={css.video}
-        autoPlay
+        playing
         loop
         muted
-        playsInline
         width="100%"
-        height="auto"
+        height="550px"
         controls
-      >
-        <source src="src/assets/video/intro.mp4" type="video/mp4" />
-        Ваш браузер не підтримує відео тег.
-      </video>
+      />
     </div>
   );
 }
