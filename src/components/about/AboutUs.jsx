@@ -31,9 +31,12 @@ const AboutUs = () => {
         {isExpanded && (
           <div className={`${css.aboutUs} ${isExpanded ? css.expanded : ''}`}>
             <p className={`${css.title} ${isExpanded ? css.expanded : ''}`}>
-              <strong>
-                <FaHammer /> Що ми пропонуємо:
-              </strong>{' '}
+              <p>
+                {' '}
+                <strong>
+                  <FaHammer /> Що ми пропонуємо:
+                </strong>{' '}
+              </p>
               Широкий асортимент: У нашому каталозі ви знайдете все необхідне
               для будівництва та ремонту - від цегли, цементу та утеплювачів до
               оздоблювальних матеріалів, сантехніки та електрики.

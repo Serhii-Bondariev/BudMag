@@ -37,6 +37,10 @@
   flex-direction: column;
 }
 
+.aboutUs.expanded {
+  padding: 10px 6px;
+}
+
 .AbtUsbutton {
   display: flex;
   justify-content: center;
@@ -44,7 +48,7 @@
 }
 
 .aboutUsBtn:hover {
-  background-color: #ad4518;
+  background-color: #ad2e18;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -61,11 +65,11 @@
 .title.expanded {
   opacity: 1;
   transform: translateY(0);
-  padding: 4px 10px;
-  display: flex;
-  justify-content: center;
+  /* padding: 4px 10px; */
+  /* display: flex; */
+  /* justify-content: center; */
   align-items: center;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   flex-direction: column;
 }
 
@@ -122,9 +126,10 @@
 }
 
 .title.expanded {
+  text-align: justify;
   opacity: 1;
   transform: translateY(0);
-  padding: 4px 10px;
+  /* padding: 4px 10px; */
   margin-bottom: 40px;
 }
 

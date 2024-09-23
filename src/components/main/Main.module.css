@@ -1,14 +1,11 @@
 .wrapper {
-  padding: 40px 18px;
+  padding: 40px 12px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #eeaf31;
-  /* background-image: url('../images/mainImg.jpg'); */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+
   height: 100%;
 }
 .text {
