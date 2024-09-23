@@ -13,7 +13,7 @@ const AboutUs = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const handlePhoneClick = () => {
-    window.location.href = 'tel:+12345678901';
+    window.location.href = 'tel:+380976928760';
   };
 
   const toggleText = () => {

@@ -1,60 +1,81 @@
 .container {
   background-color: #eeaf31;
-  box-shadow: 4px 1px 3px rgba(0, 0, 0, 0.12);
-  padding: 22px 12px 22px 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 12px;
 }
 
 .title {
   text-align: center;
-  font-size: 24px;
-  font-weight: 600;
-  color: hsl(0, 0%, 20%);
-  margin: 0 0 30px 0;
-}
-
-.productImage {
-  width: 100%;
-  height: auto;
-  max-height: 350px; /* Встановіть максимальну висоту, якщо необхідно */
-  object-fit: scale-down;
-  margin-bottom: 12px;
-  border-radius: 8px;
-}
-
-.productLabel {
-  text-align: center;
-  font-size: 16px;
+  font-size: 26px;
+  font-weight: 700;
   color: #333;
-}
-
-.productPrice {
-  text-align: center;
-  font-size: 24px;
-  font-weight: 600;
-  color: #05890e;
-
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .productCard {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 480px;
-  background-color: white;
+  justify-content: space-evenly;
+  height: 100%;
+  background-color: #fff;
   padding: 16px;
-  margin-bottom: 30px;
-  gap: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  transition: transform 0.3s ease, background-color 0.3s ease,
-    box-shadow 0.3s ease;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-height: 520px; /* Задання мінімальної висоти картки */
+}
+
+.productCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .productImageWrapper {
   display: flex;
   justify-content: center;
-  min-height: 350px;
-  width: 100%;
+  align-items: center;
+  height: 220px;
+  overflow: hidden;
+}
+
+.productImage {
+  max-height: 220px;
+  width: auto;
+  object-fit: cover; /* Обмежує зображення в межах контейнера */
+}
+
+.productLabel {
+  min-height: 50px; /* Додаємо мінімальну висоту для тексту */
+  margin: 15px 0 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+
+.productPrice {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: #05890e;
+  margin-bottom: 15px;
+}
+
+.productButton {
+  align-self: center;
+  max-width: 200px;
+  padding: 12px 24px;
+  background-color: #bd3737;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.productButton:hover {
+  background-color: #f44336;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: yellow;
 }

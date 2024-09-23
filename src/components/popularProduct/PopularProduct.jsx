@@ -47,6 +47,9 @@ const products = [
 ];
 
 const PopularProduct = () => {
+  const handlePhoneClick = () => {
+    window.location.href = 'tel:+380976928760';
+  };
   return (
     <div className={css.container}>
       <h2 className={css.title}>Хіти продажу</h2>
@@ -91,6 +94,9 @@ const PopularProduct = () => {
 
               <p className={css.productLabel}>{product.label}</p>
               <p className={css.productPrice}>{product.price}</p>
+              <button onClick={handlePhoneClick} className={css.productButton}>
+                Замовити
+              </button>
             </div>
           </SwiperSlide>
         ))}

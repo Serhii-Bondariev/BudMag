@@ -5,7 +5,7 @@ import css from './Header.module.css';
 
 const Header = () => {
   const handlePhoneClick = () => {
-    window.location.href = 'tel:+12345678901';
+    window.location.href = 'tel:+380976928760';
   };
   // const handleEmailClick = () => {
   //   window.location.href = 'mailto:info@company.com';

@@ -90,6 +90,9 @@ const products = [
 ];
 
 const ProductsList = () => {
+  const handlePhoneClick = () => {
+    window.location.href = 'tel:+380976928760';
+  };
   return (
     <div className={css.wrapper}>
       {/* <h2 className={css.title}>Ми пропонуємо широкий вибір будматеріалів </h2> */}
@@ -102,6 +105,9 @@ const ProductsList = () => {
               className={css.productImage}
             />
             <p className={css.productLabel}>{product.label}</p>
+            <button onClick={handlePhoneClick} className={css.productButton}>
+              Замовити
+            </button>
           </div>
         ))}
       </div>
