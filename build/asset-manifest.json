@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BudMag/static/css/main.e01efc07.css",
-    "main.js": "/BudMag/static/js/main.95a59711.js",
+    "main.css": "/BudMag/static/css/main.160b7723.css",
+    "main.js": "/BudMag/static/js/main.92918283.js",
     "reactPlayerYouTube.js": "/BudMag/static/js/reactPlayerYouTube.8916e332.chunk.js",
     "reactPlayerSoundCloud.js": "/BudMag/static/js/reactPlayerSoundCloud.f7ec8475.chunk.js",
     "reactPlayerVimeo.js": "/BudMag/static/js/reactPlayerVimeo.bd5cdf40.chunk.js",
@@ -49,8 +49,8 @@
     "static/media/pinoblok.webp": "/BudMag/static/media/pinoblok.098a244c3b9f1e57adf5.webp",
     "static/media/metaloprokat.jpeg": "/BudMag/static/media/metaloprokat.4ce02cab7d4aaeabd558.jpeg",
     "index.html": "/BudMag/index.html",
-    "main.e01efc07.css.map": "/BudMag/static/css/main.e01efc07.css.map",
-    "main.95a59711.js.map": "/BudMag/static/js/main.95a59711.js.map",
+    "main.160b7723.css.map": "/BudMag/static/css/main.160b7723.css.map",
+    "main.92918283.js.map": "/BudMag/static/js/main.92918283.js.map",
     "reactPlayerYouTube.8916e332.chunk.js.map": "/BudMag/static/js/reactPlayerYouTube.8916e332.chunk.js.map",
     "reactPlayerSoundCloud.f7ec8475.chunk.js.map": "/BudMag/static/js/reactPlayerSoundCloud.f7ec8475.chunk.js.map",
     "reactPlayerVimeo.bd5cdf40.chunk.js.map": "/BudMag/static/js/reactPlayerVimeo.bd5cdf40.chunk.js.map",
@@ -68,7 +68,7 @@
     "453.f427351a.chunk.js.map": "/BudMag/static/js/453.f427351a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e01efc07.css",
-    "static/js/main.95a59711.js"
+    "static/css/main.160b7723.css",
+    "static/js/main.92918283.js"
   ]
 }
