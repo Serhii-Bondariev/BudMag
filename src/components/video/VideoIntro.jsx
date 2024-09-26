@@ -6,7 +6,7 @@ function VideoIntro() {
   return (
     <div className={css.videoContainer}>
       <ReactPlayer
-        url="/public/media/intro.mp4" // Переконайся, що шлях правильний
+        url="https://youtu.be/hups21yh5oE" // Переконайся, що шлях правильний
         className={css.video}
         playing
         loop

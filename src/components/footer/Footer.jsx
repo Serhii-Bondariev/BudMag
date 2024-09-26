@@ -8,7 +8,7 @@ const Footer = () => {
     window.location.href = 'tel:+12345678901';
   };
   const handleEmailClick = () => {
-    window.location.href = 'mailto:info@company.com';
+    window.location.href = 'budmaister.piskivka@gmail.com';
   };
 
   const handleOpenMap = () => {
@@ -31,7 +31,7 @@ const Footer = () => {
               692-87-60
             </div>
             <div className={css.email} onClick={handleEmailClick}>
-              <FaMailBulk className={css.emailIco} alt="email" /> info@shop.com
+              <FaMailBulk className={css.emailIco} alt="email" /> E-MAIL
             </div>
           </div>
         </div>
