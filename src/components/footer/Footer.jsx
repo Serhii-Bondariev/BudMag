@@ -8,7 +8,7 @@ const Footer = () => {
     window.location.href = 'tel:+12345678901';
   };
   const handleEmailClick = () => {
-    window.location.href = 'budmaister.piskivka@gmail.com';
+    window.location.href = 'mailto:budmaister.piskivka@gmail.com';
   };
 
   const handleOpenMap = () => {
