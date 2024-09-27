@@ -5,10 +5,10 @@ import css from './Footer.module.css';
 
 const Footer = () => {
   const handlePhoneClick = () => {
-    window.location.href = 'tel:+12345678901';
+    window.location.href = 'tel:+380976928760';
   };
   const handleEmailClick = () => {
-    window.location.href = 'budmaister.piskivka@gmail.com';
+    window.location.href = 'mailto:budmaister.piskivka@gmail.com';
   };
 
   const handleOpenMap = () => {
@@ -76,7 +76,8 @@ const Footer = () => {
             className={css.iconSoc}
             label="youtube"
             target="_blank"
-            url="https://www.youtube.com"
+            rel="noreferrer noopener"
+            url="https://www.youtube.com/@Budmaister"
           />
         </div>
         <div className={css.border}></div>

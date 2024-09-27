@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPhoneAlt } from 'react-icons/fa';
+import { FaPhoneAlt, FaMailBulk } from 'react-icons/fa';
 import css from './Header.module.css';
 // import logo from '../../components/images/unnamed.jpg';
 
@@ -7,9 +7,9 @@ const Header = () => {
   const handlePhoneClick = () => {
     window.location.href = 'tel:+380976928760';
   };
-  // const handleEmailClick = () => {
-  //   window.location.href = 'mailto:info@company.com';
-  // };
+  const handleEmailClick = () => {
+    window.location.href = 'mailto:budmaister.piskivka@gmail.com';
+  };
 
   return (
     <div className={css.container}>
@@ -29,14 +29,14 @@ const Header = () => {
           <p>Графік роботи: Пн-Сб: 8:00-18:00, Нд: 8:00-16:00</p>
         </div> */}
         <div className={css.contactInfo}>
-          {/* <div className={css.email} onClick={handleEmailClick}>
+          <div className={css.email} onClick={handleEmailClick}>
             <FaMailBulk
               className={css.emailIco}
               alt="email"
               aria-label="Email"
             />{' '}
-            info@company.com
-          </div> */}
+            E-MAIL
+          </div>
           <div className={css.phone} onClick={handlePhoneClick}>
             <FaPhoneAlt
               className={css.phoneIco}
@@ -44,6 +44,9 @@ const Header = () => {
               aria-label="Phone number"
             />{' '}
             <span>+38 (097) 692-87-60</span>
+          </div>
+          <div className={css.address}>
+            <p>Наша адреса: Пісківка, вул. Шкільна 40a</p>
           </div>
         </div>
       </div>
