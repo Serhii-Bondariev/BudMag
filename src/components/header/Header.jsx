@@ -45,9 +45,6 @@ const Header = () => {
             />{' '}
             <span>+38 (097) 692-87-60</span>
           </div>
-          <div className={css.address}>
-            <p>Наша адреса: Пісківка, вул. Шкільна 40a</p>
-          </div>
         </div>
       </div>
     </div>

@@ -8,24 +8,25 @@ import Header from './components/header/Header';
 import Main from './components/main/Main';
 import PopularProduct from 'components/popularProduct/PopularProduct';
 import VideoIntro from 'components/video/VideoIntro';
+// import NawBar from 'components/NawBar/NawBar';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <div className={css.container}>
-        <PopularProduct />
-        <VideoIntro />
+        <div className={css.wrapper}>
+          <PopularProduct />
+          <VideoIntro />
+        </div>
         <ProductsList />
         <Galerry />
         <Main />
-
         {/* <Evidnova /> */}
-
         {/* <AboutUs /> */}
       </div>
-
       <Footer />
+      {/* <NawBar /> */}
     </div>
   );
 }
