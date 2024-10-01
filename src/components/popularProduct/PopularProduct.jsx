@@ -1,7 +1,14 @@
 import React from 'react';
 import css from './PopularProduct.module.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import {
+  Navigation,
+  Pagination,
+  Autoplay,
+  Mousewheel,
+  Keyboard,
+  EffectCoverflow,
+} from 'swiper/modules';
 // import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -54,17 +61,36 @@ const PopularProduct = () => {
     <div className={css.container}>
       <h2 className={css.title}>Хіти продажу</h2>
       <Swiper
-        spaceBetween={20}
-        slidesPerView={1}
-        slidesPerGroup={1}
+        effect={'coverflow'}
+        grabCursor={true}
+        centeredSlides={true}
         loop={true}
+        slidesPerView={'auto'}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: false,
+        }}
+        // spaceBetween={20}
+        // slidesPerView={2}
+        // slidesPerGroup={1}
+        // loop={true}
         // autoplay={{
         //   delay: 3000,
         //   disableOnInteraction: true,
         // }}
         navigation
         pagination={{ clickable: true }}
-        modules={[Navigation, Pagination, Autoplay]}
+        modules={[
+          Navigation,
+          EffectCoverflow,
+          Pagination,
+          Autoplay,
+          Mousewheel,
+          Keyboard,
+        ]}
         breakpoints={{
           320: {
             slidesPerView: 1,
