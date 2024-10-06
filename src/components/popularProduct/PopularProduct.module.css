@@ -80,3 +80,13 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   color: yellow;
 }
+
+@media screen and (max-width: 1024px) {
+  .swiperBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #05890e 1px solid;
+  }
+}

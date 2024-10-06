@@ -9,7 +9,7 @@ import {
   Keyboard,
   EffectCoverflow,
 } from 'swiper/modules';
-// import 'swiper/css';
+import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
@@ -61,6 +61,8 @@ const PopularProduct = () => {
     <div className={css.container}>
       <h2 className={css.title}>Хіти продажу</h2>
       <Swiper
+        className={css.swiperBox}
+        spaceBetween={10}
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
@@ -73,14 +75,6 @@ const PopularProduct = () => {
           modifier: 1,
           slideShadows: false,
         }}
-        // spaceBetween={20}
-        // slidesPerView={2}
-        // slidesPerGroup={1}
-        // loop={true}
-        // autoplay={{
-        //   delay: 3000,
-        //   disableOnInteraction: true,
-        // }}
         navigation
         pagination={{ clickable: true }}
         modules={[
@@ -97,12 +91,12 @@ const PopularProduct = () => {
             spaceBetween: 10,
           },
           768: {
-            slidesPerView: 2,
+            slidesPerView: 3,
             spaceBetween: 15,
           },
           1024: {
-            slidesPerView: 4,
-            spaceBetween: 40,
+            slidesPerView: 5,
+            spaceBetween: 30,
           },
         }}
       >
@@ -110,14 +104,13 @@ const PopularProduct = () => {
           <SwiperSlide key={index}>
             <div className={css.productCard}>
               {/* <h3>{product.label}</h3> */}
-              <div className={css.productImageWrapper}>
+              <div>
                 <img
                   src={product.src}
                   alt={product.alt}
                   className={css.productImage}
                 />
               </div>
-
               <p className={css.productLabel}>{product.label}</p>
               <p className={css.productPrice}>{product.price}</p>
               <button onClick={handlePhoneClick} className={css.productButton}>
