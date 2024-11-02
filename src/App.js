@@ -1,13 +1,13 @@
 import ProductsList from 'components/productsList/ProductsList';
 import css from './App.css';
-// import Evidnova from './components/eVidnova/Evidnova';
+import Evidnova from './components/eVidnova/Evidnova';
 // import AboutUs from './components/about/AboutUs';
 import Footer from './components/footer/Footer';
 import Galerry from './components/gallery/Galerry';
 import Header from './components/header/Header';
 import Main from './components/main/Main';
 import PopularProduct from 'components/popularProduct/PopularProduct';
-import VideoIntro from 'components/video/VideoIntro';
+// import VideoIntro from 'components/video/VideoIntro';
 // import NawBar from 'components/NawBar/NawBar';
 
 function App() {
@@ -17,12 +17,12 @@ function App() {
       <div className={css.container}>
         <div className={css.wrapper}>
           <PopularProduct />
-          <VideoIntro />
+          {/* <VideoIntro /> */}
         </div>
         <ProductsList />
         <Galerry />
         <Main />
-        {/* <Evidnova /> */}
+        <Evidnova />
         {/* <AboutUs /> */}
       </div>
       <Footer />

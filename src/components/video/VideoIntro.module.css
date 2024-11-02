@@ -2,9 +2,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 100vh; */
-  padding: 12px;
+  background-color: #eeaf31; /* Фон для контейнера */
 
+  padding: 2rem 0 0 0;
+  /* position: relative; */
+  overflow: hidden; /* Приховує зайве відео */
+}
+
+.video {
+  width: 100vw; /* Ширина плеєра на всю ширину вікна */
+  height: 100vh; /* Висота на всю висоту вікна */
+  object-fit: cover; /* Масштабування відео без зміни пропорцій */
+}
+
+/* .videoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
   background-color: #eeaf31;
 }
 
@@ -14,4 +29,4 @@
   min-width: 350px;
   max-width: 600px;
   height: auto;
-}
+} */

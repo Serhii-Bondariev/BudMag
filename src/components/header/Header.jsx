@@ -35,7 +35,7 @@ const Header = () => {
               alt="email"
               aria-label="Email"
             />{' '}
-            E-MAIL
+            Надіслати e-mail
           </div>
           <div className={css.phone} onClick={handlePhoneClick}>
             <FaPhoneAlt
@@ -43,7 +43,7 @@ const Header = () => {
               alt="phone"
               aria-label="Phone number"
             />{' '}
-            <span>+38 (097) 692-87-60</span>
+            <span>(097) 692-87-60</span>
           </div>
         </div>
       </div>
