@@ -6,7 +6,7 @@ import css from './PopularProduct.module.css';
 import Cement from '../../assets/popular/cement/Cement.png';
 import Gazoblok from '../../assets/popular/gazblok/pinoblok.png';
 import Paint from '../../assets/popular/paint/farba.png';
-import sumish from '../../assets/popular/power/sumish.png';
+import sumish from '../../assets/popular/power/Sumish.png';
 import Uteplitel from '../../assets/popular/uteplitel/2916270_2.png';
 
 const products = [
