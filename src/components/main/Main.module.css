@@ -16,7 +16,11 @@
 }
 
 .title {
-  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: -1px 3px 3px rgba(65, 67, 3, 0.8);
+  margin-bottom: 30px;
 }
 
 .aboutUs {
@@ -24,8 +28,13 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
+  flex-direction: column;
 }
 
 .titleSpan {
-  color: #1e2022;
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: -1px 3px 3px rgba(65, 67, 3, 0.8);
+  margin-bottom: 30px;
 }

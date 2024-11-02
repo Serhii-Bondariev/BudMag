@@ -4,7 +4,8 @@ import css from './Evidnova.module.css';
 
 const Evidnova = () => {
   return (
-    <div>
+    <div className={css.wrapper}>
+      <h2 className={css.title}>Працюємо за програмою єВідновлення</h2>
       <img
         className={css.e_vidnovlennya}
         src={e_widnova}

@@ -1,5 +1,6 @@
 .container {
-  background-color: #eeaf31;
+  /* background-color: #eeaf31; */
+  padding: 12px;
 }
 
 .swiper {

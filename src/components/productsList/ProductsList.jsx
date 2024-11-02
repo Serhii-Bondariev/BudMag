@@ -2,7 +2,7 @@ import React from 'react';
 import css from './ProductsList.module.css';
 
 import budmaterialy from '../../assets/budmaterialy.png';
-import gipsokarton from '../../assets/gipsokarton.jpg';
+import gipsokarton from '../../assets/gipsokarton.jpeg';
 import isolationMaterialy from '../../assets/isolationMaterialy.jpg';
 import komposit from '../../assets/komposit.jpg';
 import Kraski from '../../assets/Kraski.jpg';
@@ -95,7 +95,9 @@ const ProductsList = () => {
   };
   return (
     <div className={css.wrapper}>
-      {/* <h2 className={css.title}>Ми пропонуємо широкий вибір будматеріалів </h2> */}
+      <h2 className={css.title}>
+        Ми пропонуємо широкий вибір товарів для будівництва та ремонту{' '}
+      </h2>
       <div className={css.productsList}>
         {products.map((product, index) => (
           <div key={index} className={css.productCard}>
