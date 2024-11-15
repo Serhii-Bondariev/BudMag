@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BudMag/static/css/main.6f9bc54e.css",
-    "main.js": "/BudMag/static/js/main.3386a80a.js",
+    "main.js": "/BudMag/static/js/main.26b82a2c.js",
     "reactPlayerYouTube.js": "/BudMag/static/js/reactPlayerYouTube.8916e332.chunk.js",
     "reactPlayerSoundCloud.js": "/BudMag/static/js/reactPlayerSoundCloud.f7ec8475.chunk.js",
     "reactPlayerVimeo.js": "/BudMag/static/js/reactPlayerVimeo.bd5cdf40.chunk.js",
@@ -20,7 +20,7 @@
     "static/media/Cement.png": "/BudMag/static/media/Cement.0c2ec4157cfb7c27c3b6.png",
     "static/media/farba.png": "/BudMag/static/media/farba.48dc2d450a19d5cacde1.png",
     "static/media/Cement.jpg": "/BudMag/static/media/Cement.2ec8eee295155a401316.jpg",
-    "static/media/sumish.png": "/BudMag/static/media/sumish.4266e94dca28e0cd9f61.png",
+    "static/media/Sumish.png": "/BudMag/static/media/Sumish.4266e94dca28e0cd9f61.png",
     "static/media/2916270_2.png": "/BudMag/static/media/2916270_2.28f16ca13d98cda83e3b.png",
     "static/media/evidnovlennya1.png": "/BudMag/static/media/evidnovlennya1.41a85e2205d8bd4b3184.png",
     "static/media/opalennja.png": "/BudMag/static/media/opalennja.7d030d36f709de5cf024.png",
@@ -57,7 +57,7 @@
     "index.html": "/BudMag/index.html",
     "static/media/slick.woff": "/BudMag/static/media/slick.295183786cd8a1389865.woff",
     "main.6f9bc54e.css.map": "/BudMag/static/css/main.6f9bc54e.css.map",
-    "main.3386a80a.js.map": "/BudMag/static/js/main.3386a80a.js.map",
+    "main.26b82a2c.js.map": "/BudMag/static/js/main.26b82a2c.js.map",
     "reactPlayerYouTube.8916e332.chunk.js.map": "/BudMag/static/js/reactPlayerYouTube.8916e332.chunk.js.map",
     "reactPlayerSoundCloud.f7ec8475.chunk.js.map": "/BudMag/static/js/reactPlayerSoundCloud.f7ec8475.chunk.js.map",
     "reactPlayerVimeo.bd5cdf40.chunk.js.map": "/BudMag/static/js/reactPlayerVimeo.bd5cdf40.chunk.js.map",
@@ -76,6 +76,6 @@
   },
   "entrypoints": [
     "static/css/main.6f9bc54e.css",
-    "static/js/main.3386a80a.js"
+    "static/js/main.26b82a2c.js"
   ]
 }
