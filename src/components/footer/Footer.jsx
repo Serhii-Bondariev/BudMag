@@ -100,7 +100,7 @@ const Footer = () => {
       <div className={css.border}></div>
 
       <div className={css.copyright}>
-        <p>
+        <p className={css.author}>
           © 2024 BudMaister.Powered and designed by{' '}
           <a
             href="https://github.com/Serhii-Bondariev"
@@ -112,7 +112,7 @@ const Footer = () => {
           >
             <span className={css.copyrightLinkSpan}>TRIDENT WEB STUDIO</span>{' '}
           </a>
-          . All rights reserved.
+          All rights reserved.
         </p>
       </div>
     </div>
