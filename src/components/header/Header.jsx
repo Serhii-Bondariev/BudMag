@@ -21,9 +21,9 @@ const Header = () => {
             <p className={css.logoSubtitle}>Будівельні матеріали</p>
           </div>
         </div>
-        <div className={css.border}></div>
+        {/* <div className={css.border}></div>
 
-        <div className={css.border}></div>
+        <div className={css.border}></div> */}
         {/* <div className={css.addressInfo}>
           <p>Наша адреса: Пісківка, вул. Шкільна 40a</p>
           <p>Графік роботи: Пн-Сб: 8:00-18:00, Нд: 8:00-16:00</p>
